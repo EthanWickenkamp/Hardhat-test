@@ -39,16 +39,16 @@ export default defineConfig({
 
 
 // gpt amoy network connection 
-require("@nomicfoundation/hardhat-toolbox");
-require("dotenv").config();
+// require("@nomicfoundation/hardhat-toolbox");
+// require("dotenv").config();
 
-module.exports = {
-  solidity: "0.8.24",
-  networks: {
-    amoy: {
-      url: process.env.AMOY_RPC_URL,
-      chainId: 80002,
-      accounts: [process.env.DEPLOYER_PRIVATE_KEY],
-    },
-  },
-};
+// module.exports = {
+//   solidity: "0.8.24",
+//   networks: {
+//     amoy: {
+//       url: process.env.AMOY_RPC_URL,
+//       chainId: 80002,
+//       accounts: [process.env.DEPLOYER_PRIVATE_KEY],
+//     },
+//   },
+// };
