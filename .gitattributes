@@ -1,0 +1,20 @@
+# hopefully no line ending lf and crlf issues
+# this just converts when uploading to git so not in final repository
+# Default to LF everywhere
+* text=auto eol=lf
+
+# Solidity
+*.sol text eol=lf
+
+# JavaScript / TypeScript
+*.js   text eol=lf
+*.ts   text eol=lf
+*.json text eol=lf
+
+# Shell scripts
+*.sh   text eol=lf
+
+# Config / env examples
+*.env.example text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
